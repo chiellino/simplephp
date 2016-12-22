@@ -1,2 +1,2 @@
 <?php
-echo "<h1>Welcome to Franco's next application in the world.";
+echo "<h1>Welcome to Franco's greatest application in the world.";
