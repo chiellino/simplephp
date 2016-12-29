@@ -13,7 +13,7 @@ if ($connection->connect_errno) {
     $query = "SELECT * from users";
     $rs = mysql_query($query);
     while ($row = mysql_fetch_assoc($rs)) {
-      echo $row['ID] . " " . $row['name'] . "\n";
+      echo $row['ID'] . " " . $row['name'] . "\n";
     }
     mysql_close();
 }
