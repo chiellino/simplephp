@@ -10,7 +10,7 @@ if ($connection->connect_errno) {
     exit();
 } else {
     printf("Connected to the database");
-    $query = "SELECT * from useres";
+    $query = "SELECT * from users";
     $rs = mysql_query($query);
     while ($row = mysql_fetch_assoc($rs)) {
       echo $row['ID] . " " . $row['name'] . "\n";
